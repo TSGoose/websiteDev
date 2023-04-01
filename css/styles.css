@@ -213,3 +213,22 @@ h3{
     background-color: #34547A;;
     width: 70%;
 }
+
+.methods-work{
+    background: #EEEFF1;
+    padding-bottom: 100px;
+}
+
+.methods-work__text{
+    width: 27%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 57px;
+    text-align: center;
+}
+
+.methods-work__video{
+    display: block; 
+    margin: auto;
+
+}

@@ -7,6 +7,7 @@ section{
 }
 
 header{
+    width: 100%;
     padding-top: 57px;
     padding-bottom: 145px;
     background-color: #EEEFF1;
@@ -29,7 +30,6 @@ h2{
     font-weight: 500;
     font-size: 32px;
     line-height: 38px;
-    text-align: center;
 
     color: #000000;
 }
@@ -178,4 +178,38 @@ h3{
     margin: 0;
     line-height: 26px;
     color: #FFFFFF;
+}
+
+.skills__block{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    padding-top: 102px;
+    padding-bottom: 101px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills__block__my-skills{
+    margin: 0;
+    width: 39%;
+}
+
+.skills__block__my-skills h2{
+    margin-bottom: 50px;
+}
+
+.skills__block_my-skills__progressbar__lines_1{
+    position: relative;
+    height: 4px;
+    background-color: #c4c4c4;
+    width: 100%;
+}
+
+.skills__block_my-skills__progressbar__lines_2{
+    position: absolute;
+    left: 0;
+    height: 4px;
+    background-color: #34547A;;
+    width: 70%;
 }

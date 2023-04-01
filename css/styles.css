@@ -232,3 +232,14 @@ h3{
     margin: auto;
 
 }
+
+.portfolio_collage{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, [col-start] 1fr);
+}
+
+.element-portfolio{
+    display: block;
+    width: 100%;
+}

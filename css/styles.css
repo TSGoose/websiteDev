@@ -240,7 +240,7 @@ h3{
     gap: 0;
     column-gap: 0;
     row-gap: 0;
-    grid-template-columns: repeat(auto, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .element-portfolio{
@@ -266,4 +266,12 @@ h3{
 
 .element-portfolio:hover .element-portfolio__hide{
     display: flex;
+}
+
+.container-logos{
+    margin: auto;
+    width: 58%;
+    display: flex;
+    margin-top: 72px;
+    margin-bottom: 100px;
 }

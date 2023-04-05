@@ -347,3 +347,36 @@ input[type="submit"]:hover{
     background-color: #436a9a;
     cursor: pointer;
 }
+
+footer{
+    background: #34547A;
+}
+
+.container-footer{
+    width: 59%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer__text__p-copyright{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.footer__logos{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    gap: 22px;
+    
+}

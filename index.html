@@ -11,15 +11,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="main">
         <div class="header-first-line">
             <img src="images/WD.svg" alt="">
             <div class="nav-bar">
-                <a class="nav-bar__a">Главная</a>
-                <a class="nav-bar__a">Об авторе</a>
-                <a class="nav-bar__a">Работы</a>
-                <a class="nav-bar__a">Процесс</a>
-                <a class="nav-bar__a">Контакты</a>
+                <a href="#main" class="nav-bar__a">Главная</a>
+                <a href="#about_author" class="nav-bar__a">Об авторе</a>
+                <a href="#works" class="nav-bar__a">Работы</a>
+                <a href="#process" class="nav-bar__a">Процесс</a>
+                <a href="#contacts" class="nav-bar__a">Контакты</a>
             </div>
         </div>
         <div class="header-main">
@@ -29,13 +29,11 @@
                 <p class="base-p header-main__info__p">
                     Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
                 </p>
-                <button class="btn-write-me">
-                    НАПИСАТЬ МНЕ
-                </button>
+                <div class="btn-write-me"><a href="#send-email" >НАПИСАТЬ МНЕ</a></div>
             </div>
         </div>
     </header>
-    <section class="short-description">
+    <section id="about_author" class="short-description">
         <div class="description__text">
             <h2 class="description__text__h">Обо мне</h2>
             <p class="base-p ">
@@ -123,7 +121,7 @@
             <img src="images/photo.png" alt="моя фотография" width="50%">
         </div>
     </section>
-    <section class="methods-work">
+    <section id="process" class="methods-work">
         <div class="methods-work__text">
             <h2 class="description__text__h">Как я работаю</h2>
             <p class="base-p">
@@ -132,7 +130,7 @@
         </div>
         <img src="images/video.png" alt="video" width="50%" class="methods-work__video">
     </section>
-    <section class="portfolio">
+    <section id="works" class="portfolio">
         <div class="portfolio__collage">
             <div class="element-portfolio">
                 <img class="element-portfolio__img" src="images/image_portfolio_2.png" alt="">
@@ -192,7 +190,7 @@
             <img src="images/microsoft.svg" alt="">
         </div>
     </section>
-    <section class="send-email">
+    <section id="send-email" class="send-email">
         <div class="send-email__text">
             <h2 class="description__text__h">Хотите веб-сайт?</h2>
             <p class="base-p">
@@ -209,7 +207,7 @@
             </form>
         </div>
     </section>
-    <footer>
+    <footer id="contacts">
         <div class="container-footer">
             <div class="footer__text">
                 <h3>Иван Иванов</h3>

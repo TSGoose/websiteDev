@@ -1,0 +1,52 @@
+@media screen and (max-width: 650px) {
+    section div{
+        width: auto;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .header-first-line{
+        width: 95%;
+    }
+
+
+    .header-main{
+        width: 95%;
+    }
+
+    .description__text{
+        width: 95%
+    }
+
+    .projects{
+        width: 95%
+    }
+
+    .header-first-line{
+        width: 95%
+    }
+
+    .skills__block{
+        width: 95%
+    }
+
+    .methods-work__text{
+        width: 95%
+    }
+
+    .container-logos{
+        width: 95%
+    }
+
+    .send-email__text{
+        width: 95%
+    }
+
+    .container-footer{
+        width: 95%
+    }
+}

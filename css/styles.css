@@ -49,6 +49,12 @@ a{
     text-decoration: none;
 }
 
+img {max-width: 100%;}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
 .base-p{
     font-family: 'Roboto';
     font-style: normal;
@@ -91,6 +97,7 @@ a{
 
 .header-main{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 57%;
     margin: auto;
@@ -99,13 +106,15 @@ a{
 }
 
 .notebook{
-    margin-left: 85px;
+    margin-left: 10%;
+    margin: auto;
 }
 
 .header-main__info{
     min-width: min-content;
     width: 49%;
     margin-top: 10px;
+    margin: auto;
 }
 
 .header-main__info__p{
@@ -259,6 +268,7 @@ a{
 .element-portfolio{
     position: relative;
     width: 100%;
+    
 }
 
 .element-portfolio__img{
@@ -283,11 +293,22 @@ a{
 }
 
 .container-logos{
+    flex-direction: row;
     margin: auto;
     width: 58%;
     display: flex;
+    justify-content: space-between;
+    
     margin-top: 72px;
     margin-bottom: 100px;
+}
+
+.logo-microsoft{
+    box-flex: 1;
+    flex: 1 1 auto; 
+    flex-grow: 1;
+    height: auto;
+    text-align: center;
 }
 
 .send-email{

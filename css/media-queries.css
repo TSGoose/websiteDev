@@ -6,6 +6,26 @@
     .nav-bar{
         display: none;
     }
+
+    h1{
+        text-align: center;
+    }
+    .base-p{
+        text-align: center;
+    }
+
+    .header-main{
+        margin-top: 50px;
+        padding-bottom: 0;
+    }
+
+    header{
+        padding-bottom: 50px;
+    }
+
+    .header-main__info{
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 980px) {
@@ -13,6 +33,9 @@
         width: 95%;
     }
 
+    .projects__block__text{
+        display: none;
+    }
 
     .header-main{
         width: 95%;
@@ -37,6 +60,8 @@
     .methods-work__text{
         width: 95%
     }
+
+    
 
     .container-logos{
         width: 95%

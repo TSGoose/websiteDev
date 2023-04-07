@@ -183,13 +183,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 .projects__block{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 .projects__block__text{
+    display: block;
+    font-size: 5%;
     margin: 0;
     margin-left: 20px;
+}
+
+.projects__block__img{
+    box-flex: 1;
+    flex: 1 1 auto; 
+    flex-grow: 1;
+    height: auto;
+    text-align: center;
 }
 
 .projects__block__text-p{
@@ -206,6 +218,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     width: 60%;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     padding-top: 102px;
     padding-bottom: 101px;
     justify-content: space-between;

@@ -97,7 +97,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 .header-main{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     width: 57%;
     margin: auto;
@@ -180,6 +179,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     justify-content: space-between;
     align-items: center;
 
+}
+
+
+.hidden-text div{
+    display: none;
 }
 
 .projects__block{
@@ -265,7 +269,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .methods-work__video{
     display: block; 
     margin: auto;
-
 }
 
 .portfolio__collage{
@@ -281,7 +284,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .element-portfolio{
     position: relative;
     width: 100%;
-    
 }
 
 .element-portfolio__img{

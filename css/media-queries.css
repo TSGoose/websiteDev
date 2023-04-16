@@ -10,6 +10,7 @@
     h1{
         text-align: center;
     }
+
     .base-p{
         text-align: center;
     }
@@ -19,12 +20,21 @@
         padding-bottom: 0;
     }
 
+    .description__text{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
     header{
         padding-bottom: 50px;
     }
 
     .header-main__info{
         margin-top: 20px;
+    }
+
+    .portfolio__collage{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -37,8 +47,31 @@
         display: none;
     }
 
+    .projects__block__img>input[type="radio"] {
+        display: none;
+    }
+
+    .projects__block__img>div {
+        display: none;
+    }
+
+    .projects__block__img>input[type="radio"]:checked+label {
+        background-color: #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+    #tab-btn-1:checked~#content-1,
+    #tab-btn-2:checked~#content-2,
+    #tab-btn-3:checked~#content-3,
+    #tab-btn-4:checked~#content-4,
+    #tab-btn-5:checked~#content-5,
+    #tab-btn-6:checked~#content-6 {
+        display: block;
+    }
+
     .header-main{
         width: 95%;
+        flex-wrap: wrap;
     }
 
     .description__text{
@@ -46,7 +79,7 @@
     }
 
     .projects{
-        width: 95%
+        width: 100%
     }
 
     .header-first-line{

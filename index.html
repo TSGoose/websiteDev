@@ -12,17 +12,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header id="main">
-        <div class="header-first-line">
-            <img src="images/WD.svg" alt="">
-            <div class="nav-bar">
-                <a href="#main" class="nav-bar__a">Главная</a>
-                <a href="#about_author" class="nav-bar__a">Об авторе</a>
-                <a href="#works" class="nav-bar__a">Работы</a>
-                <a href="#process" class="nav-bar__a">Процесс</a>
-                <a href="#contacts" class="nav-bar__a">Контакты</a>
+   <div class="header-first-line">
+            <div class="header-first-line__block">
+                <img src="images/WD.svg" alt="">
+                <div class="nav-bar">
+                    <a href="#main" class="nav-bar__a">Главная</a>
+                    <a href="#about_author" class="nav-bar__a">Об авторе</a>
+                    <a href="#works" class="nav-bar__a">Работы</a>
+                    <a href="#process" class="nav-bar__a">Процесс</a>
+                    <a href="#contacts" class="nav-bar__a">Контакты</a>
+                </div>
+                <a class="menu-hide">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="24" height="24">
+                        <rect y="11" width="24" height="2" rx="1"/>
+                        <rect y="4" width="24" height="2" rx="1"/>
+                        <rect y="18" width="24" height="2" rx="1"/>
+                    </svg>
+                </a>
             </div>
         </div>
+    <header id="main">
+        
         <div class="header-main">
             <img class="notebook" src="images/notebook.svg" alt="Ноутбук">
             <div class="header-main__info">
@@ -34,6 +44,15 @@
             </div>
         </div>
     </header>
+
+    <div class="nav-bar-right">
+        <a href="#main" class="nav-bar__a">Главная</a>
+        <a href="#about_author" class="nav-bar__a">Об авторе</a>
+        <a href="#works" class="nav-bar__a">Работы</a>
+        <a href="#process" class="nav-bar__a">Процесс</a>
+        <a href="#contacts" class="nav-bar__a">Контакты</a>
+    </div>
+
     <section id="about_author" class="short-description">
         <div class="description__text">
             <h2 class="description__text__h">Обо мне</h2>

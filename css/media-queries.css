@@ -7,12 +7,31 @@
         display: none;
     }
 
+    .header-first-line{
+        box-sizing: border-box;
+        margin: 0;
+        background-color: #EEEFF1;
+        position: fixed;
+        padding: 20px;
+        top: 0;
+        z-index: 99;
+        margin: 0;
+    }
+
+    .header-first-line__block{
+        padding: 10px;
+    }
+
     h1{
         text-align: center;
     }
 
     .base-p{
         text-align: center;
+    }
+
+    .menu-hide{
+        display: block;
     }
 
     .header-main{
@@ -39,8 +58,9 @@
 }
 
 @media screen and (max-width: 980px) {
-    .header-first-line{
+    .header-first-line__block{
         width: 95%;
+        background-color: #EEEFF1;
     }
 
     .projects__block__text{
@@ -82,9 +102,6 @@
         width: 100%
     }
 
-    .header-first-line{
-        width: 95%
-    }
 
     .skills__block{
         width: 95%

@@ -7,8 +7,9 @@ section{
 }
 
 header{
+    margin: 0;
     width: 100%;
-    padding-top: 57px;
+   
     padding-bottom: 145px;
     background-color: #EEEFF1;
 }
@@ -66,7 +67,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 .header-first-line{
+    padding-top: 57px;
+    margin: 0;
+    background-color: #EEEFF1;
+    width: 100%;
+}
+
+.header-first-line__block{
     display: flex;
+
     justify-content: space-between;
     width: 57%;
     margin: auto;
@@ -95,13 +104,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     color: #34547A;
 }
 
+.nav-bar-right{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    background-color: #6c94c5e7;
+    right: 0;
+    top: 0;
+    gap: 20px;
+    width: 50%;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.nav-bar-right a{
+    display: block;
+    text-align: center;
+}
+
+
+.menu-hide{
+    display: none;
+}
+
 .header-main{
     display: flex;
     justify-content: space-between;
     width: 57%;
     margin: auto;
     align-items: center;
-    margin-top: 140px;
+    padding-top: 140px;
+    margin-top: 0;
 }
 
 .notebook{

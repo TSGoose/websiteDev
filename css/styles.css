@@ -104,19 +104,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     color: #34547A;
 }
 
-.nav-bar-right{
+
+#nav-bar-right{
     position: fixed;
     display: flex;
     flex-direction: column;
-    z-index: 100;
+    z-index: 98;
     background-color: #6c94c5e7;
     right: 0;
-    top: 0;
+    top: -60%;
     gap: 20px;
-    width: 50%;
+    width: 60%;
     padding: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    transition: ease-out 0.3s;
+}
+
+#nav-bar-right.opened{
+    top: 70px;
 }
 
 .nav-bar-right a{
@@ -127,6 +134,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 .menu-hide{
     display: none;
+    color: #34547A;
 }
 
 .header-main{
@@ -209,16 +217,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     width: 57%;
     margin: auto;
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     justify-content: space-between;
     align-items: center;
-
 }
 
 
 .hidden-text div{
     display: none;
+    margin: auto;
+
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .projects__block{
@@ -304,6 +315,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .methods-work__video{
     display: block; 
     margin: auto;
+    width: 50%;
 }
 
 .portfolio__collage{
